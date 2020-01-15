@@ -1,6 +1,7 @@
 # importing the roman function
 
-from functions import roman_function as rn
+from romConverter.functions import roman_function as rn
+
 
 # building the Roman class
 class Roman:

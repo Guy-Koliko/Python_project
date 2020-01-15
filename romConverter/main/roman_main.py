@@ -2,7 +2,8 @@
     This is a simple program that takes in a number
     and shows the Roman numeral part of that number
 """
-from classes import RomanClass as rn
+from romConverter.classes import RomanClass as rn
+
 
 def inputs():
     tn = int(input("Enter Your Number : "))
