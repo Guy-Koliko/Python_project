@@ -3,9 +3,9 @@
 """
 
 def screen(a,b,):
-    print('CONVERTING %s '%a)
-    scn = """"
-                     CONVERTING %s
+
+    scn = """
+                     CONVERTING number %s  to Romans numeral
                -------------------------
               *                         *
             *     ____________________    *
@@ -18,4 +18,3 @@ def screen(a,b,):
              *****************************
            """ %(b,a,b)
     return(scn)
-# print(screen(9,800,7))
